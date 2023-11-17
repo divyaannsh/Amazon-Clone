@@ -18,6 +18,7 @@
 }
 .logo{
     background-image: url("amazon_logo.png");
+    
     background-size: cover;
     height: 50px; 
     width: 100%;
@@ -136,6 +137,21 @@ span{
     background-image: url(hero_image.jpg);
     background-size: cover;
     height: 400px;
+    animation: slider 9s infinite linear;
+ }
+
+ @keyframes slider {
+    0%{ background-image: url(hero_image.jpg);}
+    35%{ background-image: url(D103625917_IN_WLD_Tecno_POVA_5_Pro_5G_GW_BAU_Tall_hero_3000x1200._CB574597455_.jpg);}
+    75%{ background-image: url(D81072334_PC_Hero_3000x1200._CB574380556_.jpg);} 
+    
+    /* 0%{ background-image: url(hero_image.jpg);}
+    35%{ background-image: url(D103625917_IN_WLD_Tecno_POVA_5_Pro_5G_GW_BAU_Tall_hero_3000x1200._CB574597455_.jpg);}
+    55%{ background-image: url(D81072334_PC_Hero_3000x1200._CB574380556_.jpg);} 
+    85%{ background-image: url(61CiqVTRBEL._SX3000_.jpg);} 
+    /* 65%{ background-image: url(61zAjw4bqPL._SX3000_.jpg);} 
+    85%{ background-image: url(81KkrQWEHIL._SX3000_.jpg);}  */
+    
  }
 /**shopsection**/
 .shop-section{
